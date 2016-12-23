@@ -11,38 +11,38 @@
 .SandboxRoot.env-bp-430 .TweetAuthor-screenName,
 .SandboxRoot.env-bp-550 .TweetAuthor-screenName {
     font-size: 11px !important;
-    line-height: 18px
+    line-height: 18px !important;
 }
 .SandboxRoot.env-bp-660 .TweetAuthor-screenName,
 .SandboxRoot.env-bp-820 .TweetAuthor-screenName,
 .SandboxRoot.env-bp-970 .TweetAuthor-screenName {
     font-size: 13px !important;
-    line-height: 18px
+    line-height: 18px !important;
 }
 
 
 .TweetAuthor-name {
     font-size: 10px !important;
     line-height: 18px;
-    font-weight: 700
+    font-weight: 700 !important;
 }
 .SandboxRoot.env-bp-330 .TweetAuthor-name,
 .SandboxRoot.env-bp-430 .TweetAuthor-name,
 .SandboxRoot.env-bp-550 .TweetAuthor-name {
     font-size: 12px !important;
-    line-height: 18px
+    line-height: 18px !important;
 }
 .SandboxRoot.env-bp-660 .TweetAuthor-name,
 .SandboxRoot.env-bp-820 .TweetAuthor-name,
 .SandboxRoot.env-bp-970 .TweetAuthor-name {
     font-size: 16px !important;
-    line-height: 27px
+    line-height: 27px !important;
 }
 
 .SandboxRoot.env-bp-970 .timeline-Tweet-actions,
 .SandboxRoot.env-bp-970 .timeline-Tweet-media,
 .SandboxRoot.env-bp-970 .timeline-Tweet-text {
-    margin-right: 64px
+    margin-right: 64px !important;
 }
 .SandboxRoot.env-bp-660 .timeline-Tweet-actions,
 .SandboxRoot.env-bp-660 .timeline-Tweet-media,
@@ -50,65 +50,65 @@
 .SandboxRoot.env-bp-820 .timeline-Tweet-actions,
 .SandboxRoot.env-bp-820 .timeline-Tweet-media,
 .SandboxRoot.env-bp-820 .timeline-Tweet-text {
-    margin-right: 56px
+    margin-right: 56px !important;
 }
 .SandboxRoot.env-bp-550 .timeline-Tweet-actions,
 .SandboxRoot.env-bp-550 .timeline-Tweet-media,
 .SandboxRoot.env-bp-550 .timeline-Tweet-text {
-    margin-right: 44px
+    margin-right: 44px !important;
 }
 .SandboxRoot.env-bp-970 .timeline-Tweet-text {
-    font-size: 15px;
+    font-size: 15px !important;
     line-height: 21px;
     font-weight: 300;
-    display: inline-block;
+    display: inline-block !important;
 }
 .SandboxRoot.env-bp-820 .timeline-Tweet-text {
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 28px;
     font-weight: 300;
-    display: inline-block;
+    display: inline-block !important;
 
 }
 .SandboxRoot.env-bp-660 .timeline-Tweet-text {
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 17px !important;
+    line-height: 26px !important;
     font-weight: 300;
-    display: inline-block;
+    display: inline-block !important;
 }
 .SandboxRoot.env-bp-550 .timeline-Tweet-text {
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 12px !important;
+    line-height: 17px !important;
     font-weight: 300;
-    display: inline-block;
+    display: inline-block !important;
 }
 .SandboxRoot.env-bp-330 .timeline-Tweet-text {
-    font-size: 8px;
-    line-height: 10px;
-    display: inline-block;
+    font-size: 8px !important;
+    line-height: 10px !important;
+    display: inline-block !important;
 }
 .SandboxRoot.env-bp-430 .timeline-Tweet-text {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 12px !important;
+    line-height: 16px !important;
     font-weight: 300;
-    display: inline-block;
+    display: inline-block !important;
 }
 .SandboxRoot.env-bp-min .timeline-Tweet-text {
-    margin-top: 6px;
-    margin-left: 0;
-    font-size: 12px;
-    line-height: 14px;
-    display: inline-block;
+    margin-top: 6px !important;
+    margin-left: 0 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    display: inline-block !important;
 }
 .timeline-Tweet-text {
-    margin-left: 40px;
-    margin-bottom: 12px;
-    font-size: 12px;
-    line-height: 18px;
+    margin-left: 40px !important;
+    margin-bottom: 12px !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
     font-weight: 400;
     white-space: pre-wrap;
     word-wrap: break-word;
-    display: inline-block;
+    display: inline-block !important;
 }
 .timeline-Tweet-text[dir=ltr] {
     text-align: left;
@@ -131,8 +131,8 @@ p,
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-    border: none;
+    list-style: none !important;
+    border: none !important;
 }
 
 .timeline {
@@ -164,7 +164,7 @@ iframe[id^='twitter-widget-0'] {
 .timeline-TweetList-tweet, .timeline-TweetList-tweet:before, .timeline-TweetList-tweet:after {box-sizing:  border-box !important;}
 
 .timeline-Tweet {
-    background: #FF0;
+    background: #FF0 ;
     opacity: 0.8 !important;
 }
 
