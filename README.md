@@ -2,8 +2,10 @@
 
 Twitter embed widget customized to display tweets in a grid.
 
+###[DEMO](https://xxbinxx.github.com/custom-twitter-embed-widget "Preview this repository online")
+
 Recently I needed to expose twitter feeds in a grid style on top of that use a complex responsive layout. 
-Problem was, that original twitter widget is does not allow us to customize widget design the way we want, therefore I spent some time googling and found a better solution - write priority css that overrides twitter embed widget's css. Finally this is made [Simple Grid Style Twitter Embed Widget](https://github.com/xxbinxx/custom-twitter-embed-widget "custom-twitter-embed-widget"). I got what I was looking for - feed in a simple html markup styled in a grid fashion.
+Problem was, that original twitter widget is does not allow us to customize widget design the way we want, therefore I spent some time googling and found a better solution - write priority css that overrides twitter embed widget's css. Finally this is made [Simple Grid Style Twitter Embed Widget](https://github.com/xxbinxx/custom-twitter-embed-widget "Simple Grid Style Twitter Embed Widget"). I got what I was looking for - feed in a simple html markup styled in a grid fashion.
 
 **I am still working on it.
 
