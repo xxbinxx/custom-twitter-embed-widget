@@ -178,10 +178,6 @@ iframe[id^='twitter-widget-0'] {
   background-position: center;
 }
 
-.timeline-Tweet-retweetCredit{
-  /*float: right !important;*/
-}
-
 .timeline-Tweet-retweetCredit {
     margin-bottom: 0px !important;
     margin-left: 18px;
@@ -193,17 +189,3 @@ iframe[id^='twitter-widget-0'] {
     float: left !important;
     margin-right: 5px !important;
 }
-.timeline-Tweet-author {
-    /*padding: 0px !important;*/
-}
-
-
-.SandboxRoot.env-bp-970 .timeline-Tweet-actions, .SandboxRoot.env-bp-970 .timeline-Tweet-media, .SandboxRoot.env-bp-970 .timeline-Tweet-text {
-    /*margin-left: 0 !important;*/
-}
-
-.timeline-LoadMore{
-    /*display: none !important;*/
-}
-
-
