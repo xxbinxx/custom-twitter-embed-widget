@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter Feeds Custom Widget</title>
+        <script type="text/javascript" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="xrossroads-twitter-news">
+            <a class="twitter-timeline"  style="max-width:100%; width:100%;"  href="https://twitter.com/xK0nB1n" data-chrome="transparent noscrollbar nofooter" >Tweets by @brent</a>
+        </div>
+        <script type="text/javascript">
+            $(window).on('load', function() {
+
+                $('iframe[id^=twitter-widget-]').each(function() {
+
+                    var head = $(this).contents().find('head');
+
+                    if (head.length) {
+                        head.append('<link rel="stylesheet" href="twitter-widget.css" type="text/css" />');
+                    }
+
+                    $('#twitter-widget-0').append($('<div class=timeline>'));
+
+                })
+
+            });
+
+        </script>
+
+    </body>
+</html>
