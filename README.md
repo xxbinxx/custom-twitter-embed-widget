@@ -16,3 +16,7 @@ Hope you like it. Don't forget to follow me [@xK0nB1n](https://twitter.com/xK0nB
 
 All popular browsers supported. Chrome, Firefox, Safari, Opera, Internet Explorer 7, 8 9 and 10.
 ![Browser Support](http://jasonmayes.com/projects/twitterApi/browsers.jpg "Browser Support")
+
+
+##First Look
+![Embed widget customized Grid screenshot](https://github.com/xxbinxx/custom-twitter-embed-widget/raw/master/screenshot/screenshot_custom_twitter_widget_by_xK0nB1n.png "Embed widget customized Grid screenshot")
